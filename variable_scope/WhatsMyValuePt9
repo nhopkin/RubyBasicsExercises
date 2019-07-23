@@ -1,0 +1,10 @@
+# puts 7. The variable was added to each item in the array and had no effect on the variable itself.
+
+a = 7
+array = [1, 2, 3]
+
+array.each do |a|
+  a += 1
+end
+
+puts a

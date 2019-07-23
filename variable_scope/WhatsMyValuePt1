@@ -1,0 +1,10 @@
+# Puts 7. The scope of a lies outside the method def and the method points to a new variable b.
+
+a = 7
+
+def my_value(b)
+  b += 10
+end
+
+my_value(a)
+puts a

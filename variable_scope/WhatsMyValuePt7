@@ -1,0 +1,10 @@
+# puts 3. A is set to 3 after the each method iterates through the array.
+
+a = 7
+array = [1, 2, 3]
+
+array.each do |element|
+  a = element
+end
+
+puts a
